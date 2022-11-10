@@ -1,0 +1,15 @@
+.c-cronometro {
+    width: 50vw;
+    text-align: center;
+    margin: 5vh auto;
+}
+
+.c-cronometro__time {
+    margin: 5vh 0;
+}
+
+@media screen and (max-width: 570px) {
+    .c-cronometro {
+        width: 90vw;
+    }
+}

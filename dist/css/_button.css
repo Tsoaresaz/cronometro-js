@@ -1,0 +1,45 @@
+.c-button {
+    color: var(--primary-default);
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.c-button__time {
+    width: 5rem;
+    height: 5rem;
+    font-size: var(--font-size-18);
+    font-weight: var(--font-weight-bold);
+    border-radius: 50%;
+}
+
+.c-button__time:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.c-button__time--start {
+    border: 2px solid var(--teal-darken-1);
+}
+
+.c-button__time--start:hover {
+    background-color: rgba(var(--teal-darken-1-rgb), 0.18);
+    transition: all 0.2s ease-in-out;
+}
+
+.c-button__time--pause {
+    border: 2px solid var(--orange-darken-1);
+}
+
+.c-button__time--pause:hover {
+    background-color: rgba(var(--orange-darken-1-rgb), 0.18);
+    transition: all 0.2s ease-in-out;
+}
+
+.c-button__time--stop {
+    border: 2px solid var(--deep-orange-darken-1);
+}
+
+.c-button__time--stop:hover {
+    background-color: rgba(var(--deep-orange-darken-1-rgb), 0.18);
+    transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,22 @@
+:root {
+    --dark-color: #282828;
+    --primary-default: #ffffff;
+    --teal-darken-1: #00897b;
+    --orange-darken-1: #fb8c00;
+    --deep-orange-darken-1: #f4511e;
+
+    --teal-darken-1-rgb: 0, 137, 123;
+    --orange-darken-1-rgb: 251, 140, 0;
+    --deep-orange-darken-1-rgb: 244, 81, 30;
+
+    --font-size-16: 1rem;
+    --font-size-18: 1.125rem;
+
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+}
+
+body {
+    color: var(--primary-default);
+    background-color: var(--dark-color);
+}
