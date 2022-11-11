@@ -1,0 +1,9 @@
+.is-disabled {
+    color: rgba(var(--primary-default-rgb), 0.35);
+    border: 2px solid var(--grey-darken-1);
+    cursor: not-allowed;
+}
+
+.is-disabled:hover {
+    background-color: transparent;
+}

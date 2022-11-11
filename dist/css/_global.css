@@ -4,7 +4,9 @@
     --teal-darken-1: #00897b;
     --orange-darken-1: #fb8c00;
     --deep-orange-darken-1: #f4511e;
+    --grey-darken-1: #757575;
 
+    --primary-default-rgb: 255, 255, 255;
     --teal-darken-1-rgb: 0, 137, 123;
     --orange-darken-1-rgb: 251, 140, 0;
     --deep-orange-darken-1-rgb: 244, 81, 30;
